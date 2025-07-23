@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-     <!-- here is the CDN script for tailwind -->
+    <!-- here is the CDN script for tailwind -->
     <script src="https://cdn.tailwindcss.com"></script>
 
     <!-- the link of cusotom css -->
@@ -12,59 +13,56 @@
     <link rel="stylesheet" href="./style/mobile.css" />
     <link rel="stylesheet" href="./style/primary.css" />
 
-   
+
 
     <title>B12A02-Responsive-Flowers-website</title>
-  </head>
-  <body class="max-w-[1440px]  mx-auto bg-[#F5F8FF] px-3 sm:px-0">
+</head>
+
+<body class="max-w-[1440px]  mx-auto bg-[#F5F8FF] px-5 sm:px-0">
     <!-- the header is starting here -->
-    <header class="max-w-[1170px]  mx-auto py-4">
-      <!-- starting the nav section -->
-      <nav
-        class="max-w-[1170px]  mx-auto max-h-[70px] flex justify-between items-center px-2.5"
-      >
-        <div
-          class="logo w-[63px]  sm:w-[100px]  cursor-pointer"
-        >
-          <img
-            class="w-full h-full object-contain"
-            src="./assets/logo.png"
-            alt="Logo"
-          />
-        </div>
+    <header class="max-w-[1140px]  mx-auto py-4">
+        <!-- starting the nav section -->
+        <nav class="max-w-[1170px]  mx-auto max-h-[70px] flex justify-between items-center px-2.5">
+            <div class="logo w-[63px]  sm:w-[100px]  cursor-pointer">
+                <img class="w-full h-full object-contain" src="./assets/logo.png" alt="Logo" />
+            </div>
 
-        <div class="navigation flex gap-12 items-center">
-          <ul
-            class="hidden sm:flex justify-between items-center capitalize gap-12 font-inter"
-          >
-            <li
-              class="py-1.5 border-b-2 border-transparent hover:border-amber-400 transition-all duration-500"
-            >
-              <a class="Dark1" href="#">home</a>
-            </li>
-            <li
-              class="py-1.5 border-b-2 border-transparent hover:border-amber-400 transition-all duration-500"
-            >
-              <a class="Dark3" href="#">shop</a>
-            </li>
-            <li
-              class="py-1.5 border-b-2 border-transparent hover:border-amber-400 transition-all duration-500"
-            >
-              <a class="Dark3" href="#">about us</a>
-            </li>
-          </ul>
-          <div class="cart-item flex gap-2.5">
-            <img
-              class="w-6 h-6"
-              src="./icon/shoping-cart-2.png" class="blackout"
-              alt="shoping-cart"
-            />
-            <h3 class="font-inter">Cart ($56)</h3>
-          </div>
-        </div>
-      </nav>
+            <div class="navigation flex gap-12 items-center">
+                <ul class="hidden sm:flex justify-between items-center capitalize gap-12 font-inter">
+                    <li class="py-1.5 border-b-2 border-transparent hover:border-amber-400 transition-all duration-500">
+                        <a class="Dark1" href="#">home</a>
+                    </li>
+                    <li class="py-1.5 border-b-2 border-transparent hover:border-amber-400 transition-all duration-500">
+                        <a class="Dark3" href="#">shop</a>
+                    </li>
+                    <li class="py-1.5 border-b-2 border-transparent hover:border-amber-400 transition-all duration-500">
+                        <a class="Dark3" href="#">about us</a>
+                    </li>
+                </ul>
+                <div class="cart-item flex gap-2.5">
+                    <img class="w-6 h-6" src="./icon/shoping-cart-2.png" class="blackout" alt="shoping-cart" />
+                    <h3 class="font-inter">Cart ($56)</h3>
+                </div>
+            </div>
+        </nav>
 
-      <!-- end the nav section -->
+        <!-- end the nav section -->
+
+        <!-- the banner section start -->
+        <div class="banner flex justify-between mt-56 sm:items-center sm:flex-row flex-col-reverse">
+
+            <div class="banner-text sm:w-[50%] w-full mt-6">
+                <h1 class="sm:text-[65px] text-[24px] font-bold  text-primary font-noto-serif"><span class=" Dark1">ALWAYS</span> FRESH FLOWERS</h1>
+                <article class="font-inter Dark3 ">
+                    Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to
+                    exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion.
+                </article>
+            </div>
+            <div class="banner-image">
+                <img src="./assets/hero-flower.png" alt="">
+            </div>
+
+        </div>
 
     </header>
     <!-- the header is ending here -->
@@ -78,5 +76,6 @@
     <!-- the footer is starting here -->
     <footer></footer>
     <!-- the footer is ending here -->
-  </body>
+</body>
+
 </html>
