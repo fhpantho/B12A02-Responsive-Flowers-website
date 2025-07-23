@@ -39,3 +39,23 @@
 }
 
 /* filter section */
+
+
+.btn-primary
+{
+    background-color: #E95A08;
+    color: #fff;
+    padding: 10px 20px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+}
+
+.btn-primary:hover
+{
+    background-color: #fff;
+    color: #E95A08;
+    border: 1px solid #E95A08;
+}
