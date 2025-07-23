@@ -1,0 +1,22 @@
+
+/* impoting the font Inter and Noto serif */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* the universal css */
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+/* define the font class of Inter */
+.font-inter {
+    font-family: 'Inter', sans-serif;
+}
+
+/* define the font class of Noto serif */
+
+.font-noto-serif {
+    font-family: 'Noto Serif', serif;
+}
